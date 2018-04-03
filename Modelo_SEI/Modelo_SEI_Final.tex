@@ -1,0 +1,443 @@
+% Modelo Desenvolvido no decorrer do Projeto  
+% LaTeX para Instituições de Ensino Superior CM 
+% Coordenadores: Professor Dr. Adilandri Mércio Lobeiro 
+%                Professor Dr. Marco Aurélio Graciotto 
+% Bolsista Do Projeto: Discente: Rafael Rampim Soratto 
+ 
+\documentclass[a4,12pt]{modelo}
+\input{pacotes} 
+
+%************ INSIRA OS DADOS DO SEU TRABALHO A PARTIR DAQUI *********  
+% 
+% O resumo deve ter 250 palavras no máximo.  
+% e de preferência deve possuir os 4 tópicos: Objetivos, métodos, resultados e conclusão.
+\newcommand{\objetivos}{O objetivo deve ser curto, definindo o problema estudado, destacando as lacunas do conhecimento que serão abordadas no artigo.} 
+%\newcommand{\metodos}{ 
+%As fontes de dados, a população estudada, amostragem, critérios de seleção, procedimentos analíticos, dentre outros, devem ser descritos de forma compreensiva e completa.  
+%} 
+\newcommand{\resultados}{ A seção Resultados deve se limitar a descrever os resultados encontrados sem incluir interpretações ou comparações.} 
+\newcommand{\conclusao}{A conclusão dos autores sobre os resultados obtidos e sobre suas principais implicações.}
+
+% Palavra chave deve ser separada por ponto e ter apenas de 3 a 5 palavras:
+\newcommand{\palavraschave}{Palavra um. Palavra dois. Palavra três.} 
+ 
+\newcommand{\agradecimentosTexto}{Esta seção é obrigatória aos trabalhos que receberam bolsa e auxílio financeiro. Deve apresentar os agradecimentos aos principais órgãos de fomento (bolsa e auxílio financeiro), instituições e pessoas que contribuíram para a realização do trabalho. Não exceder 50 palavras e alocá-los antes das referências.}
+ 	
+%********************************************************
+% Título 
+	
+\begin{document}
+
+ 	
+\title{Título do meu trabalho em \LaTeXe}
+ 
+  	 
+\author{  
+ 
+% Editar nome e email de autores para o título do texto. 
+% Todo autor deve ter universidade e local.   
+% Não usar abreviaturas em nomes.
+% Para adicionar autores de alguma universidade:
+
+\large{Rafael Soratto} \thanks{email@hotmail.com}, 
+% \large{Nome_dois}  \thanks{email_dois},  
+% \large{Nome_três}  \thanks{email_três} 
+ 
+% Comando para adicionar a universidade dos autores a cima :  
+% \small{ Universidade Tecnológica Federal do Paraná - (UTFPR), Campo mourão, PR, Brasil. \\} 
+\small{ Universidade Tecnológica Federal do Paraná - (UTFPR), Campo mourão, PR, Brasil. \\}  
+ 
+ 
+% Outro exemplo:
+ 
+\large{Nomedois}  \thanks{emaildois},  
+\large{Nometrês}  \thanks{emailtrês} 
+  
+
+	  
+% Indica que os três autores acima são da mesma universidade(Universidade-sigla-estado-país):	 
+
+\small{Universidade Estadual de Maringá - (UEM), Maringá, PR,   Brasil. \\}       
+			 
+% Final do Título 
+} 
+  
+%********************************************************  
+% Pré-Textual	 
+
+% Nada do Pré-Textual e Pós Textual devem ser alterados!   
+
+\criartitulo  
+\thispagestyle{fancy}  
+
+
+\begin{resumo}   
+\parindent 0pt	
+\textbf{Objetivos:} \objetivos \
+%\textbf{Métodos:} \metodos  
+\textbf{Resultados:} \resultados \
+\textbf{Conclusão:} \conclusao
+\end{resumo}  
+	
+\begin{keywords} 
+ \palavraschave
+\end{keywords} 
+
+
+ 
+ %*********************************************************
+% Textual : 
+ 
+ % Alterar a partir daqui: 
+ 
+\section{Introdução}  
+
+Os documentos devem ser escritos na ortografia oficial e digitados em folhas "A4". Os trabalhos devem conter entre seis a oito páginas. Sugere-se a utilização deste arquivo para digitar o trabalho. 
+
+
+\subsection{Título e subtítulo} 
+Manter apenas a inicial da primeira palavra e de nomes próprios em letra maiúscula. Artigos em português devem ter título e subtítulo (se houver) em português e inglês; artigos em inglês devem ter título e subtítulo (se houver) em inglês e português; artigos em espanhol devem título e subtítulo (se houver) em espanhol e português.
+
+\subsubsection{Dados dos autores}: a primeira letra de cada nome em maiúscula e o restante em minúsculo. Abaixo do nome do autor deve constar o \textit{e-mail} e o vínculo institucional, contendo nome da instituição, sigla, cidade, estado e país, separados por vírgula. Não devem ser utilizadas abreviaturas nos nomes dos autores. 
+
+\section{Resumo} 
+Deve ser na própria língua do trabalho, com no máximo 250 palavras e apresentado no formato estruturado, contendo os itens:  
+\begin{itemize}
+	\item Objetivo; 
+	\item Métodos;
+	\item Resultados; 
+	\item Conclusões.
+\end{itemize}
+
+\subsection{Palavras-Chave}  
+Deve conter entre três e cinco palavras-chave, no mesmo idioma do trabalho, separadas entre si por ponto e finalizadas também por ponto. As palavras-chave deverão ser, preferencialmente, padronizadas pelo Catálogo de Terminologia de Assuntos da Biblioteca Nacional. 
+ 
+\textbf{Abstract}: o abstract deve ser uma tradução fiel do resumo.
+ 
+\textbf{Keywords}: as keywords devem ser uma tradução fiel das palavras-chaves, mantendo a formatação destas. O abstract e keywords deste documento inclui a formatação correta dos mesmos. 
+
+\section{Títulos das sessões} Os títulos das sessões devem ser posicionados à esquerda, sem ponto final, adotando o formato apresentado a lista a seguir:  
+\begin{itemize}
+	\item[Seção Primária]: Letras maiúsculas e negrito: \\ 
+	 1 \textbf{SEÇÃO PRIMÁRIA}\\
+	\item[Seção Secundária]: Letras maiúsculas e sem negrito \\ 
+	 1.1 SEÇÃO SECUNDÁRIA \\
+	\item[Seção Terciária]: Apenas a primeira letra inicial de todas as palavras em maiúscula, sem negrito. \\ 
+	 1.1.1 Seção terciárias
+	\item[Seção Quaternárias]: Apenas a primeira letra inicial da primeira palavra em maiúscula, sem negrito. \\ 
+	 1.1.1.1 Seções quaternárias \\ 
+	\item[Seção Quinárias]:  Apenas a primeira letra inicial da primeira palavra em maiúscula, sem negrito e, em itálico. \\ 
+	 1.1.1.1.1 \textit{Seção quinária}
+\end{itemize} 
+ 
+
+  
+  
+\begin{teorema}
+\item[Meu Teorema]: Descrição
+\end{teorema} 
+ 
+\begin{defi}
+	\item[Minha definição]: Definição.
+\end{defi}   
+
+\begin{obs}
+	\item[Minha observação]: Observação.
+\end{obs}  
+
+\begin{prop}
+	\item[Minha proposição]: Proposição.
+\end{prop}  
+ 
+\begin{cor}
+	\item[Colorário]: Definição.
+\end{cor} 
+  
+\newpage  
+ 
+\section{Desenvolvimento}  
+
+\subsection{Corpo do texto} O texto deve iniciar na linha abaixo do título das seções. 
+Aspas devem ser utilizadas somente em citações diretas. Negrito deve ser utilizado para dar ênfase a termos, frases ou símbolos. Itálico deverá ser utilizado apenas para palavras em língua estrangeira (for exemple). 
+
+No caso de uso de alíneas (Listas) obedecer às seguintes indicações: 
+\begin{itemize}
+\item cada item de alínea deve ser ordenado alfabeticamente por letras minúsculas seguidas de parênteses;
+\item os itens de alínea são separados entre si por ponto-e-vírgula;
+\item o último item de alínea termina com ponto;
+\item 	o estilo de alínea constante deste documento pode ser usado para a aplicação automática da formatação correta de alíneas.
+A estrutura dos artigos é a convencional: Introdução, Métodos, Resultados, Discussão e Considerações Finais. 
+\end{itemize}  
+
+Notas: As notas devem ser evitadas. Se forem imprescindíveis, utilizar notas de fim. As notas não devem ser utilizadas para referenciar documentos. 
+
+ 
+\subsection{Formatação de Figuras e Tabelas}  
+  
+%***********************  Para Utilizar Imagens ********************************* 
+Qualquer que seja o tipo de ilustração (desenho, esquema, fluxograma, fotografia, gráfico, mapa, organograma, planta, quadro, retrato, figura, imagem, entre outros) ou tabela, sua identificação aparece na parte superior, precedida da palavra designativa, seguida de seu número de ordem de ocorrência no texto, em algarismos arábicos, travessão e do respectivo título. Após a ilustração ou tabela, na parte inferior, indicar a fonte consultada (elemento obrigatório, mesmo que seja produção do próprio autor), legenda, notas e outras informações necessárias à sua compreensão (se houver). 
+ 
+Código para utilizar imagens: 
+
+\begin{verbatim}  
+\begin{figure}[H]
+\centering 
+\caption{\small{Legenda Da Imagem}}
+\includegraphics[scale=0.35]{figs/sei_utf}  
+\label{figura01}
+\end{figure}  
+\begin{center}
+\small{\textbf{Fonte:}Autoria própria.}
+\end{center}  
+\end{verbatim}  
+
+\newpage 
+
+\begin{figure}[H]
+ \centering 
+  \caption{\small{Legenda Da Imagem}}
+  \includegraphics[scale=0.75]{figs/sei_utf}   
+ \label{figura01} 
+\end{figure} 
+\begin{center}
+	\small{\textbf{Fonte:}Autoria própria.}
+\end{center}  
+%********************** Para Tabelas **********************************  
+Código para utilizar Tabelas: 
+
+\begin{verbatim}  
+\begin{table}[H]
+\caption{ {\small Categorias dos trabalhos.}}
+\begin{center}
+\begin{tabular}{|c|c|c|}
+\hline
+Categoria do trabalho  & Número de páginas & Tipo do trabalho\\
+\hline
+1          & 2 páginas & $A$   \\
+\hline
+2          & 2 páginas & $B$ e $C$ \\
+\hline
+3          & entre 5 e 7 páginas & apenas $C$ \\
+\hline
+\end{tabular} 
+\label{tabela01}
+\end{center} 
+\end{table} 
+\end{verbatim} 
+ 
+
+   
+\begin{table}[H]
+ \caption{ {\small Categorias dos trabalhos.}}
+ \begin{center}
+ \begin{tabular}{|c|c|c|}
+  \hline  
+   Categoria do trabalho  & Número de páginas & Tipo do trabalho\\
+  \hline
+   1          & 2 páginas & $A$   \\
+  \hline
+   2          & 2 páginas & $B$ e $C$ \\
+  \hline
+   3          & entre 5 e 7 páginas & apenas $C$ \\
+  \hline
+ \end{tabular} 
+ \label{tabela01}
+ \end{center} 
+\end{table} 
+
+
+\begin{verbatim}
+ \begin{table}[H]
+ 	\centering
+ 	\caption[Exemplo de uma tabela]{Exemplo de uma tabela mostrando a correlação entre x e y.}
+ 	\label{tab:correlacao}
+ 	\begin{tabular}{cc}
+ 		\hline
+ 		x & y \\
+ 		\hline
+ 		1 & 2 \\
+ 		3 & 4 \\
+ 		5 & 6 \\
+ 		7 & 8 \\
+ 		\hline
+ 	\end{tabular}
+ \end{table}
+\begin{center}
+\small{\textbf{Fonte:}Autoria própria.}
+\end{center}   
+\end{verbatim}    
+ \begin{table}[H]
+	\centering
+	\caption[Exemplo de uma tabela]{Exemplo de uma tabela mostrando a correlação entre x e y.}
+	\label{tab:correlacao}
+	\begin{tabular}{cc}
+		\hline
+		x & y \\
+		\hline
+		1 & 2 \\
+		3 & 4 \\
+		5 & 6 \\
+		7 & 8 \\
+		\hline
+	\end{tabular}
+\end{table}
+\begin{center}
+	\small{\textbf{Fonte:}Autoria própria.}
+\end{center}
+    
+ \begin{verbatim}   
+ \begin{table}[H]  
+ 	\centering  
+ 	\caption{Linhas verticais duplas externas.} 
+ 	\begin{tabular}{||lll||}  
+ 		\hline  
+ 		\textsl{Laranjas} & \textsl{Bananas} & \textsl{Limões} \\  
+ 		\hline  
+ 		1000 & 2000 & 3000 \\  
+ 		2000 & 2000 & 3000 \\ 
+ 		3000 & 2000 & 3000 \\  
+ 		4000 & 2000 & 3000 \\  
+ 		5000 & 2000 & 3000 \\  
+ 		\hline  
+ 	\end{tabular}   
+ 	\label{tab:vert-duplas}   
+ \end{table} 
+ \begin{center}
+ 	\small{\textbf{Fonte:}Autoria própria.}
+ \end{center}  
+\end{verbatim} 
+ 
+  \begin{table}[H]  
+ 	\centering  
+ 	\caption{Linhas verticais duplas externas.} 
+ 	\begin{tabular}{||lll||}  
+ 		\hline  
+ 		\textsl{Laranjas} & \textsl{Bananas} & \textsl{Limões} \\  
+ 		\hline  
+ 		1000 & 2000 & 3000 \\  
+ 		2000 & 2000 & 3000 \\ 
+ 		3000 & 2000 & 3000 \\  
+ 		4000 & 2000 & 3000 \\  
+ 		5000 & 2000 & 3000 \\  
+ 		\hline  
+ 	\end{tabular}   
+ 	\label{tab:vert-duplas}   
+ \end{table} 
+ \begin{center}
+ 	\small{\textbf{Fonte:}Autoria própria.}
+ \end{center}
+ 
+ 
+ 
+ 
+%*********************** Para Utilizar Listas : Respeitar o ponto e virgula e utilizar ponto apenas no último item *********************************  
+\newpage 
+ Código para utilizar Listas: 
+\begin{verbatim}
+\begin{itemize}  
+\item[Descrição]: Primeiro item;  
+\item[Descrição2]: Segundo item; 
+\item[Último]: Último.
+\end{itemize} 
+\label{lista01} 
+ 
+\begin{enumerate}  
+\item[Descrição]: Primeiro item;  
+\item[Descrição2]: Segundo item; 
+\item[Último]: Último.
+\end{enumerate} 
+\label{lista02} 
+ 
+\end{verbatim} 
+ 
+ 
+\begin{itemize}  
+ \item[Descrição]: Primeiro item;  
+ \item[Descrição2]: Segundo item; 
+ \item[Último]: Último.
+\end{itemize} 
+\label{lista01} 
+
+
+%********************************************************
+\subsection{Instruções para a inserção de equações}
+
+As equações são enumeradas sequencialmente no texto, com a numeração a direita, usando o 
+comando \verb!\label{nome-da-equacao}! para identificá-las. Sempre que necessário identificar 
+as equações utilizar o comando \verb!\ref{nome-da-equacao}!. 
+Por exemplo, a equação (\ref{Calor}): 
+%
+%
+\begin{eqnarray}
+\begin{array}{rclcc}
+\frac{\partial u}{\partial t}-\Delta u &=& f  & \mbox{ em } & \Omega. 
+\end{array}
+\label{Calor}
+\end{eqnarray}
+
+
+foi gerada usando-se os seguintes comandos: 
+\begin{verbatim}
+\begin{eqnarray}
+\begin{array}{rclcc}
+\frac{\partial u}{\partial t}-\Delta u &=& f  &  
+\mbox{ em } & \Omega. 
+\end{array}
+\label{Calor}
+\end{eqnarray}
+\end{verbatim}  
+ 
+ 
+\subsection{Citações e Referências} 
+  
+As citações devem obedecer ao sistema autor-data e estar de acordo com a norma NBR 10520 da Associação Brasileira de Normas Técnicas (ABNT).\footnote{Citações até 3 linhas e com mais de 3 linhas} 
+Citações diretas de até três linhas acompanham o corpo do texto e se destacam com aspas duplas. Caso o texto original já contenha aspas, estas devem ser substituídas por aspa simples. 
+
+Fulano (2008, p. 10) afirma que “[...] é importante a utilização das citações corretamente”. 
+
+"Citar trechos de ‘outros autores’ sem referenciá-los, pode ser caracterizado plágio” (FULANO; BELTRANO, 2009, p. 20, grifo do autor). Exemplos:  
+\begin{itemize}
+\item[``cite":] ``\cite{einstein}";  
+\item[``citealp":] ``\citealp{einstein}";  
+\item[``citealt":] ``\citealt{latexcompanion}"; 
+\item[``citep":] ``\citep{nriagu_1988}";
+\item[``citet":] ``\citet{einstein}". \\ 
+\item \cite{wilson2009memoir} 
+\end{itemize} 
+ 
+Para as citações com mais de três linhas, estas devem ser transcritas em parágrafo distinto. 
+Exemplo:  
+\begin{citacao} 
+`Toda citação direta com mais de 03 linhas é considerada uma citação direta longa. A citação com mais de 03 linhas deve ser escrita sem aspas, em parágrafo distinto, com fonte menor e com recuo de 8,0 cm da margem esquerda, terminando na margem direita, conforme ilustrado neste exemplo (\cite{nriagu_1988},p. 150).	' 
+\end{citacao} 
+ 
+A exatidão das referências é de responsabilidade dos autores e devem ser elaboradas de acordo com a NBR 6023 da ABNT. 
+Todas as referências citadas no texto, e apenas estas, devem ser incluídas ao final, na seção Referências. 
+As referências devem incluir apenas aquelas centrais e pertinentes à problemática abordada. É, também, desejável que se evite a utilização de livros, priorizando os periódicos como referência.
+Todas as obras consultadas que estiverem disponíveis na internet devem ser referenciadas com o endereço eletrônico e data de acesso.    
+\section{Conclusão}
+ 
+%*********************************************************** 
+% Pós-Textual  
+
+% Pós e Pre Textuais não devem ser alterados, porém as macros que terminam com "Texto" devem ser preenchidas no preâmbulo.
+\newpage  
+
+\titleformat{\section}{\normalfont} 
+{\thesection}{14pt}{\bfseries\Large} 
+
+\section*{Agradecimentos}
+\thanks{\agradecimentosTexto}  
+
+%\section*{Referências Bibliográficas}  
+\bibliography{sei-template-bib} 
+
+
+\appendix
+\section*{Apêndice, ou complementos (Opcional!)}\label{apendiceA}
+%%IMPORTANTE
+%%Aqui são incluídas informações complementares, se necessárias; caso contrário RETIRE todo 
+%%esse texto. Não esquecer de deixar o comando \end{document} que encontra-se na última linha do arquivo.
+
+
+\end{document}
