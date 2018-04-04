@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.9)  3 APR 2018 13:57
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.9)  4 APR 2018 16:44
 entering extended mode
 **./Modelo_SEI_Final.tex
 (Modelo_SEI_Final.tex
@@ -713,19 +713,19 @@ Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
 (Modelo_SEI_Final.aux)
 \openout1 = `Modelo_SEI_Final.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 29.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 30.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 ) ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
@@ -821,7 +821,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 29.
+(lastpage)             ! on input line 30.
 LaTeX Font Info:    Try loading font information for U+lasy on input line 70.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ulasy.fd"
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
@@ -891,69 +891,55 @@ Underfull \hbox (badness 10000) in paragraph at lines 127--129
 
 File: figs/seii.png Graphic file (type png)
 <use figs/seii.png>
-Package pdftex.def Info: figs/seii.png used on input line 146.
+Package pdftex.def Info: figs/seii.png used on input line 144.
 (pdftex.def)             Requested size: 78.4922pt x 51.87311pt.
  [2]
-File: figs/seii.png Graphic file (type png)
- <use figs/seii.png>
-Package pdftex.def Info: figs/seii.png used on input line 156.
-(pdftex.def)             Requested size: 78.4922pt x 51.87311pt.
- [3]
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 182.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 180.
 
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ot1pcr.fd"
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
 File: figs/seii.png Graphic file (type png)
  <use figs/seii.png>
-Package pdftex.def Info: figs/seii.png used on input line 194.
+Package pdftex.def Info: figs/seii.png used on input line 188.
 (pdftex.def)             Requested size: 78.4922pt x 51.87311pt.
-
-[4] <figs/sei_utf.jpg, id=25, 580.1675pt x 87.32625pt>
+ [3] <figs/sei_utf.jpg, id=22, 580.1675pt x 87.32625pt>
 File: figs/sei_utf.jpg Graphic file (type jpg)
- <use figs/sei_utf.jpg>
-Package pdftex.def Info: figs/sei_utf.jpg used on input line 199.
+
+<use figs/sei_utf.jpg>
+Package pdftex.def Info: figs/sei_utf.jpg used on input line 195.
 (pdftex.def)             Requested size: 435.12454pt x 65.49452pt.
 
-Overfull \hbox (207.15561pt too wide) in paragraph at lines 252--252
+Overfull \hbox (207.15561pt too wide) in paragraph at lines 248--248
 []  \OT1/pcr/m/n/12 \caption[Exemplo de uma tabela]{Exemplo de uma tabela mostr
 ando a correla[][]ao entre x e y.}[] 
  []
 
 File: figs/seii.png Graphic file (type png)
 <use figs/seii.png>
-Package pdftex.def Info: figs/seii.png used on input line 262.
+Package pdftex.def Info: figs/seii.png used on input line 252.
 (pdftex.def)             Requested size: 78.4922pt x 51.87311pt.
- [5 <./figs/sei_utf.jpg>]
+ [4 <./figs/sei_utf.jpg>]
 File: figs/seii.png Graphic file (type png)
  <use figs/seii.png>
-Package pdftex.def Info: figs/seii.png used on input line 334.
+Package pdftex.def Info: figs/seii.png used on input line 322.
 (pdftex.def)             Requested size: 78.4922pt x 51.87311pt.
- [6]
-Overfull \hbox (3.39314pt too wide) in paragraph at lines 365--371
+ [5]
+Overfull \hbox (3.39314pt too wide) in paragraph at lines 360--366
 \OT1/ptm/m/n/12 usando o co-mando [][]\OT1/pcr/m/n/12 \label{nome-da-equacao} [
 ]\OT1/ptm/m/n/12 para iden-ti-fic[]a-las. Sem-pre que ne-cess[]ario
  []
 
 File: figs/seii.png Graphic file (type png)
 <use figs/seii.png>
-Package pdftex.def Info: figs/seii.png used on input line 400.
+Package pdftex.def Info: figs/seii.png used on input line 381.
 (pdftex.def)             Requested size: 78.4922pt x 51.87311pt.
- [7]
-Underfull \hbox (badness 10000) in paragraph at lines 404--405
-
- []
-
-
-Package natbib Warning: Citation `bibid' on page 8 undefined on input line 406.
-
-
+ [6]
 File: figs/seii.png Graphic file (type png)
-<use figs/seii.png>
-Package pdftex.def Info: figs/seii.png used on input line 425.
+ <use figs/seii.png>
+Package pdftex.def Info: figs/seii.png used on input line 419.
 (pdftex.def)             Requested size: 78.4922pt x 51.87311pt.
- [8] (Modelo_SEI_Final.bbl
+ [7] (Modelo_SEI_Final.bbl
 Underfull \hbox (badness 4036) in paragraph at lines 9--15
 []\OT1/ptm/m/n/12 A. Eins-tein.  Zur Elek-trody-na-mik beweg-ter K[]orper. (Ger
 -man) [On the elec-trody-
@@ -969,34 +955,30 @@ y-sik\OT1/ptm/m/n/12 , 322(10):891--921, 1905.  doi:
 AED: lastpage setting LastPage
 File: figs/seii.png Graphic file (type png)
 <use figs/seii.png>
-Package pdftex.def Info: figs/seii.png used on input line 444.
+Package pdftex.def Info: figs/seii.png used on input line 438.
 (pdftex.def)             Requested size: 78.4922pt x 51.87311pt.
- [9]
-
-Package natbib Warning: There were undefined citations.
-
-(Modelo_SEI_Final.aux) ) 
+ [8] (Modelo_SEI_Final.aux) ) 
 Here is how much of TeX's memory you used:
- 7217 strings out of 493323
- 98985 string characters out of 3139066
- 191326 words of memory out of 3000000
- 10547 multiletter control sequences out of 15000+200000
+ 7216 strings out of 493323
+ 98975 string characters out of 3139066
+ 192590 words of memory out of 3000000
+ 10546 multiletter control sequences out of 15000+200000
  35421 words of font info for 88 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,16n,43p,644b,459s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.en
-c}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Fil
-es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8
-a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program
- Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9
-/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Modelo_SEI_Final.pdf (9 pages, 174303 bytes).
+ 39i,16n,43p,644b,464s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/
+8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><
+C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Progra
+m Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/
+utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Modelo_SEI_Final.pdf (8 pages, 173113 bytes).
 PDF statistics:
- 77 PDF objects out of 1000 (max. 8388607)
+ 74 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

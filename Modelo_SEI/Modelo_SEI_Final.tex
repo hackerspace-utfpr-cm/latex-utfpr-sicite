@@ -5,7 +5,8 @@
 % Bolsista Do Projeto: Discente: Rafael Rampim Soratto 
  
 \documentclass[a4,12pt]{modelo}
-\input{pacotes} 
+\input{pacotes}  
+\pagestyle{sei}
 
 %************ INSIRA OS DADOS DO SEU TRABALHO A PARTIR DAQUI *********  
 % 
@@ -39,9 +40,10 @@
 % Não usar abreviaturas em nomes.
 % Para adicionar autores de alguma universidade:
 
-\large{Rafael Soratto} \thanks{email@hotmail.com}, 
-% \large{Nome_dois}  \thanks{email_dois},  
-% \large{Nome_três}  \thanks{email_três} 
+\large{Rafael Soratto}\thanks{email@hotmail.com},  
+\large{Adilandri Mércio Lobeiro}\thanks{adilandri@gmail.com},  
+\large{Marco Aurélio Graciotto}\thanks{emailtrês},   
+
  
 % Comando para adicionar a universidade dos autores a cima :  
 % \small{ Universidade Tecnológica Federal do Paraná - (UTFPR), Campo mourão, PR, Brasil. \\} 
@@ -49,10 +51,8 @@
  
  
 % Outro exemplo:
- 
-\large{Nomedois}  \thanks{emaildois},  
-\large{Nometrês}  \thanks{emailtrês} 
-  
+\large{Nomedois}\thanks{emaildois},  
+\large{Nometrês}\thanks{emailtrês}  
 
 	  
 % Indica que os três autores acima são da mesma universidade(Universidade-sigla-estado-país):	 
@@ -68,7 +68,7 @@
 % Nada do Pré-Textual e Pós Textual devem ser alterados!   
 
 \criartitulo  
-\thispagestyle{fancy}  
+\thispagestyle{sei}  
 
 
 \begin{resumo}   
@@ -189,8 +189,6 @@ Código para utilizar imagens:
 \end{center}  
 \end{verbatim}  
 
-\newpage 
-
 \begin{figure}[H]
  \centering 
   \caption{\small{Legenda Da Imagem}}
@@ -261,7 +259,7 @@ Categoria do trabalho  & Número de páginas & Tipo do trabalho\\
  	\end{tabular}
  \end{table}
 \begin{center}
-\small{\textbf{Fonte:}Autoria própria.}
+\small{\textbf{Fonte: }Autoria própria.}
 \end{center}   
 \end{verbatim}    
  \begin{table}[H]
@@ -280,7 +278,7 @@ Categoria do trabalho  & Número de páginas & Tipo do trabalho\\
 	\end{tabular}
 \end{table}
 \begin{center}
-	\small{\textbf{Fonte:}Autoria própria.}
+	\small{\textbf{Fonte: }Autoria própria.}
 \end{center}
     
  \begin{verbatim}   
@@ -301,7 +299,7 @@ Categoria do trabalho  & Número de páginas & Tipo do trabalho\\
  	\label{tab:vert-duplas}   
  \end{table} 
  \begin{center}
- 	\small{\textbf{Fonte:}Autoria própria.}
+ 	\small{\textbf{Fonte: }Autoria própria.}
  \end{center}  
 \end{verbatim} 
  
@@ -322,14 +320,10 @@ Categoria do trabalho  & Número de páginas & Tipo do trabalho\\
  	\label{tab:vert-duplas}   
  \end{table} 
  \begin{center}
- 	\small{\textbf{Fonte:}Autoria própria.}
+ 	\small{\textbf{Fonte: }Autoria própria.}
  \end{center}
  
- 
- 
- 
 %*********************** Para Utilizar Listas : Respeitar o ponto e virgula e utilizar ponto apenas no último item *********************************  
-\newpage 
  Código para utilizar Listas: 
 \begin{verbatim}
 \begin{itemize}  
@@ -398,12 +392,12 @@ Fulano (2008, p. 10) afirma que “[...] é importante a utilização das citaç
 
 "Citar trechos de ‘outros autores’ sem referenciá-los, pode ser caracterizado plágio” (FULANO; BELTRANO, 2009, p. 20, grifo do autor). Exemplos:  
 \begin{itemize}
-\item[``cite":] ``\cite{einstein}";  
-\item[``citealp":] ``\citealp{einstein}";  
-\item[``citealt":] ``\citealt{latexcompanion}"; 
-\item[``citep":] ``\citep{nriagu_1988}";
-\item[``citet":] ``\citet{einstein}". \\ 
-\item \cite{wilson2009memoir} 
+\item``cite": ``\cite{einstein}";  
+\item``citealp": ``\citealp{einstein}";  
+\item``citealt": ``\citealt{latexcompanion}"; 
+\item``citep": ``\citep{nriagu_1988}";
+\item``citet": ``\citet{einstein}".
+
 \end{itemize} 
  
 Para as citações com mais de três linhas, estas devem ser transcritas em parágrafo distinto. 
