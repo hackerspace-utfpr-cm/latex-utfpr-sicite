@@ -15,27 +15,28 @@
 \bibliographystyle{abbrvnat}
 \setlength\bibhang{0cm}   
 \usepackage{verbatim}
-    
-  
+      
+\fancypagestyle{sei}{  
+	
 \pagestyle{fancy}   
- 
- 
-  
-\fancypagestyle{sei}{   
-\pagestyle{plain}	
-%\fancyhf{} 
 \fancyhead{} 
-\fancyfoot{}   	
+\fancyfoot{}   
+	
+\pagestyle{fancy}	
+   	 
+\fancyheadoffset[LE, RO]{0cm} %ajustando a margem direita 
+   	 
 \lhead{     	
 \includegraphics[scale=0.34]{figs/seii}  
 \textcolor{black}{\textbf{\Large VIII SEI}} 	 
 }   
 \rhead{ $8^\circ$ Seminário de Extensão e Inovação}
  
-\lfoot{\small{\textcolor{black}{\small{\textbf{página}}} \thepage \textbf{\color{black}de} \pageref{LastPage}}}  
-\rfoot{\small{Seminário de Extensão e Inovação, 8., 2018, Apucarana, PR.}} 
   
+\lfoot{\footnotesize{\textcolor{black}{\small{\textbf{página}}} \thepage \textbf{\color{black}de} \pageref{LastPage}}}  
+\rfoot{\footnotesize{Seminário de Extensão e Inovação, 8., 2018, Apucarana, PR.}} 
+ 
+} 
 \renewcommand{\headrulewidth}{2pt} 
 \renewcommand{\footrulewidth}{2pt}  
  
-}

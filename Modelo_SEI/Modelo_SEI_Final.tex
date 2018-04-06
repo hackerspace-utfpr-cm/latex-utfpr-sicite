@@ -4,22 +4,30 @@
 %                Professor Dr. Marco Aurélio Graciotto 
 % Bolsista Do Projeto: Discente: Rafael Rampim Soratto 
  
-\documentclass[a4,12pt]{modelo}
+\documentclass{modelo}
 \input{pacotes}  
-\pagestyle{sei}
-
+ 
+ 
+ 
 %************ INSIRA OS DADOS DO SEU TRABALHO A PARTIR DAQUI *********  
+ 
 % 
 % O resumo deve ter 250 palavras no máximo.  
 % e de preferência deve possuir os 4 tópicos: Objetivos, métodos, resultados e conclusão.
-\newcommand{\objetivos}{O objetivo deve ser curto, definindo o problema estudado, destacando as lacunas do conhecimento que serão abordadas no artigo.} 
-%\newcommand{\metodos}{ 
-%As fontes de dados, a população estudada, amostragem, critérios de seleção, procedimentos analíticos, dentre outros, devem ser descritos de forma compreensiva e completa.  
-%} 
-\newcommand{\resultados}{ A seção Resultados deve se limitar a descrever os resultados encontrados sem incluir interpretações ou comparações.} 
-\newcommand{\conclusao}{A conclusão dos autores sobre os resultados obtidos e sobre suas principais implicações.}
+ 
+\newcommand{\resumotexto}  
+{  
+%\textbf{Objetivos:} \objetivos \
+%\textbf{Métodos:} \metodos  
+%\textbf{Resultados:} \resultados \
+%\textbf{Conclusão:} \conclusao	 
+  
+O objetivo deve ser curto, definindo o problema estudado, destacando as lacunas do conhecimento que serão abordadas no artigo.
+As fontes de dados, a população estudada, amostragem, critérios de seleção, procedimentos analíticos, dentre outros, devem ser descritos de forma compreensiva e completa. A seção Resultados deve se limitar a descrever os resultados encontrados sem incluir interpretações ou comparações. A conclusão dos autores sobre os resultados obtidos e sobre suas principais implicações. 
+}
 
 % Palavra chave deve ser separada por ponto e ter apenas de 3 a 5 palavras:
+ 
 \newcommand{\palavraschave}{Palavra um. Palavra dois. Palavra três.} 
  
 \newcommand{\agradecimentosTexto}{Esta seção é obrigatória aos trabalhos que receberam bolsa e auxílio financeiro. Deve apresentar os agradecimentos aos principais órgãos de fomento (bolsa e auxílio financeiro), instituições e pessoas que contribuíram para a realização do trabalho. Não exceder 50 palavras e alocá-los antes das referências.}
@@ -38,26 +46,27 @@
 % Editar nome e email de autores para o título do texto. 
 % Todo autor deve ter universidade e local.   
 % Não usar abreviaturas em nomes.
-% Para adicionar autores de alguma universidade:
+% Para adicionar autores de alguma universidade: 
+% \criarautor{Nome}{e-mail} 
 
-\large{Rafael Soratto}\thanks{email@hotmail.com},  
-\large{Adilandri Mércio Lobeiro}\thanks{adilandri@gmail.com},  
-\large{Marco Aurélio Graciotto}\thanks{emailtrês},   
+\criarautor{Rafael Soratto}{email@hotmail.com},  
+\criarautor{Adilandri Mércio Lobeiro}{adilandri@gmail.com},  
+\criarautor{Marco Aurélio Graciotto}{emailtrês},   
 
- 
 % Comando para adicionar a universidade dos autores a cima :  
-% \small{ Universidade Tecnológica Federal do Paraná - (UTFPR), Campo mourão, PR, Brasil. \\} 
-\small{ Universidade Tecnológica Federal do Paraná - (UTFPR), Campo mourão, PR, Brasil. \\}  
+% \criaruniversidade 
+%  {Nome da universidade, (SIGLA), Cidade, Estado, Pais }
+\criaruniversidade{ Universidade Tecnológica Federal do Paraná - (UTFPR), Campo mourão, PR, Brasil.} \\  
  
  
 % Outro exemplo:
-\large{Nomedois}\thanks{emaildois},  
-\large{Nometrês}\thanks{emailtrês}  
+\criarautor{Nomex}{emailx},  
+\criarautor{Nomey}{emaily}  
 
 	  
 % Indica que os três autores acima são da mesma universidade(Universidade-sigla-estado-país):	 
 
-\small{Universidade Estadual de Maringá - (UEM), Maringá, PR,   Brasil. \\}       
+\criaruniversidade{Universidade Estadual de Maringá - (UEM), Maringá, PR,   Brasil.}\\       
 			 
 % Final do Título 
 } 
@@ -69,14 +78,11 @@
 
 \criartitulo  
 \thispagestyle{sei}  
-
+\pagestyle{sei}
 
 \begin{resumo}   
 \parindent 0pt	
-\textbf{Objetivos:} \objetivos \
-%\textbf{Métodos:} \metodos  
-\textbf{Resultados:} \resultados \
-\textbf{Conclusão:} \conclusao
+\resumotexto
 \end{resumo}  
 	
 \begin{keywords} 
@@ -128,8 +134,7 @@ Deve conter entre três e cinco palavras-chave, no mesmo idioma do trabalho, sep
   1.1.1.1 Seções quaternárias \\ 
 \item Seção Quinária:  Apenas a primeira letra inicial da primeira palavra em maiúscula, sem negrito e, em itálico. \\ 
   1.1.1.1.1 \textit{Seção quinária}
-\end{itemize} 
- 
+\end{itemize}  
 
   
 \begin{teorema}
@@ -385,8 +390,7 @@ foi gerada usando-se os seguintes comandos:
  
 \subsection{Citações e Referências} 
   
-As citações devem obedecer ao sistema autor-data e estar de acordo com a norma NBR 10520 da Associação Brasileira de Normas Técnicas (ABNT).\footnote{Citações até 3 linhas e com mais de 3 linhas} 
-Citações diretas de até três linhas acompanham o corpo do texto e se destacam com aspas duplas. Caso o texto original já contenha aspas, estas devem ser substituídas por aspa simples. 
+As citações devem obedecer ao sistema autor-data e estar de acordo com a norma NBR 10520 da Associação Brasileira de Normas Técnicas (ABNT). Citações diretas de até três linhas acompanham o corpo do texto e se destacam com aspas duplas. Caso o texto original já contenha aspas, estas devem ser substituídas por aspa simples. 
 
 Fulano (2008, p. 10) afirma que “[...] é importante a utilização das citações corretamente”. 
 

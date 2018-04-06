@@ -163,12 +163,19 @@
  \addtolength{\leftskip}{7cm}
  \item[]
  }{\endlist} 
-   
+ 
+ 
+% Criar autores de uma universidade 
+     
+\newcommand{\criarautor}[2]{\large{#1}\thanks{#2}}   
+\newcommand{\criaruniversidade}[1]{\small{#1}} 
+ 
 
+% Conteudo do resumo estruturado 
+ 
 % Primeira página  
  
 \newcommand{\runningheads}{\markboth}
-\pagestyle{myheadings}
 \normalsize
  
 \endinput
