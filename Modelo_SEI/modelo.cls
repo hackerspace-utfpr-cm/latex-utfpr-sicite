@@ -152,7 +152,7 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  
 \newenvironment{resumo}
-{\noindent \small \textbf{\begin{center} \parident 0pt \abstractname \end{center}}}
+{\parindent 0pt \small \textbf{\begin{center}\abstractname \end{center}}}
  
 \newenvironment{keywords}
 {\vspace{6pt}\noindent \small \textbf{Palavras-chave}:} 
