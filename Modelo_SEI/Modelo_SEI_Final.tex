@@ -8,7 +8,6 @@
 \input{pacotes}  
  
  
- 
 %************ INSIRA OS DADOS DO SEU TRABALHO A PARTIR DAQUI *********  
  
 % 
@@ -56,7 +55,7 @@ As fontes de dados, a população estudada, amostragem, critérios de seleção,
 % Comando para adicionar a universidade dos autores a cima :  
 % \criaruniversidade 
 %  {Nome da universidade, (SIGLA), Cidade, Estado, Pais }
-\criaruniversidade{ Universidade Tecnológica Federal do Paraná - (UTFPR), Campo mourão, PR, Brasil.} \\  
+\criaruniversidade{ Universidade Tecnológica Federal do Paraná - (UTFPR), Campo mourão, PR, Brasil.}  
  
  
 % Outro exemplo:
@@ -66,7 +65,7 @@ As fontes de dados, a população estudada, amostragem, critérios de seleção,
 	  
 % Indica que os três autores acima são da mesma universidade(Universidade-sigla-estado-país):	 
 
-\criaruniversidade{Universidade Estadual de Maringá - (UEM), Maringá, PR,   Brasil.}\\       
+\criaruniversidade{Universidade Estadual de Maringá - (UEM), Maringá, PR,   Brasil.}
 			 
 % Final do Título 
 } 
@@ -247,7 +246,10 @@ Categoria do trabalho  & Número de páginas & Tipo do trabalho\\
 
 
 \begin{verbatim}
- \begin{table}[H]
+ 
+ 
+ 
+\begin{table}[H]
  	\centering
  	\caption[Exemplo de uma tabela]{Exemplo de uma tabela mostrando a correlação entre x e y.}
  	\label{tab:correlacao}
@@ -419,11 +421,11 @@ Todas as obras consultadas que estiverem disponíveis na internet devem ser refe
 % Pós-Textual  
 
 % Pós e Pre Textuais não devem ser alterados, porém as macros que terminam com "Texto" devem ser preenchidas no preâmbulo.
-\newpage  
 
 \titleformat{\section}{\normalfont} 
-{\thesection}{14pt}{\bfseries\Large} 
+{\thesection}{14pt}{\bfseries\Large}  
 
+\newpage
 \section*{Agradecimentos}
 \thanks{\agradecimentosTexto}  
 
