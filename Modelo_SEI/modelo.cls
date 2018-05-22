@@ -37,7 +37,7 @@
       
     
 % Margens
-\usepackage[left=3.00cm, right=2.00cm, top=3.00cm, bottom=2.00cm]{geometry}   
+\usepackage[left=3.00cm, right=2.00cm, top=3.00cm, bottom=2.00cm,includehead,includefoot,asymmetric,footskip=60pt]{geometry}   
 
 % Espaçamento dos parágrafos
 \parindent 1cm
@@ -137,7 +137,7 @@
 	\vskip 0em%
 	\begin{center}%
 		\let \footnote \thanks
-		{\LARGE \@title \par}%
+		{\LARGE \MakeUppercase{\@title} \par}%
 	\end{center}%
 	\vskip 1.5em%
 	{\normalsize
@@ -146,17 +146,18 @@
 			\@author
 		\end{minipage}\par}%
 	\vskip 1em%
-	%{\large \@date}%
+	{\large \@date}%
 	\par
 	\vskip 1em}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  
 \newenvironment{resumo}
-{\parindent 0pt \small \textbf{\begin{center}\abstractname \end{center}}}
- 
-\newenvironment{keywords}
-{\vspace{6pt}\noindent \small \textbf{Palavras-chave}:} 
+{\parindent 0pt \small \textbf{\begin{center}\abstractname \end{center}}} 
   
+
+\newenvironment{keywords}
+{\vspace{6pt}\noindent \small \textbf{Palavras-chave}:}   
+
 \newenvironment{citacao}{
  \list{}
  \noindent\small
@@ -168,7 +169,7 @@
 % Criar autores de uma universidade 
      
 \newcommand{\criarautor}[2]{\large{#1}\thanks{#2}}   
-\newcommand{\criaruniversidade}[1]{\small{#1}} 
+\newcommand{\criaruniversidade}[1]{\small{#1} \\} 
  
 
 % Conteudo do resumo estruturado 

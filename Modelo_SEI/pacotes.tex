@@ -12,32 +12,33 @@
 \usepackage{array} 
 \usepackage{lastpage}
 \usepackage[square]{natbib} 
-\bibliographystyle{abbrvnat}
+\bibliographystyle{abntex2}
 \setlength\bibhang{0cm}   
-\usepackage{verbatim}
-      
-\fancypagestyle{sei}{  
-	
-\pagestyle{fancy}   
-\fancyhead{} 
-\fancyfoot{}   
-	
-\pagestyle{fancy}	
-   	 
-\fancyheadoffset[LE, RO]{0cm} %ajustando a margem direita 
-   	 
-\lhead{     	
-\includegraphics[scale=0.34]{figs/seii}  
-\textcolor{black}{\textbf{\Large VIII SEI}} 	 
-}   
-\rhead{ $8^\circ$ Seminário de Extensão e Inovação}
- 
-  
-\lfoot{\footnotesize{\textcolor{black}{\small{\textbf{página}}} \thepage \ \textbf{\color{black}de} \pageref{LastPage}}}  
-\rfoot{\footnotesize{Seminário de Extensão e Inovação, 8., 2018, Apucarana, PR.}} 
- 
-} 
+\usepackage{verbatim}  
+\usepackage{nth} 
+\usepackage{layouts} 
+
+\fancypagestyle{plain}{  
+	\fancyhf{} 
+	%	\fancyheadoffset[LE, RO]{0cm} %ajustando a margem direita 
+	\fancyhead[LE,LO]{%     	
+		\includegraphics[scale=0.30]{figs/seii}  
+		\textcolor{black}{\textbf{\Large \Rnth{8} SEI}} 	 
+	}   
+	%	\rhead{$\eventedition$ \eventname}
+	\fancyhead[RE,RO]{$8^\circ$ Seminário de Extensão e Inovação}
+	\fancyfoot[LE,LO]{%
+		\footnotesize
+		\textbf{página \thepage{} de \pageref{LastPage}}
+	}  
+	%	\rfoot{\footnotesize{\eventname, \eventedition., \year, \address.}} 
+	\fancyfoot[RE,RO]{\footnotesize{Seminário de Extensão e Inovação, 8., 2018, Apucarana, PR.}}
+}
+
 \renewcommand{\headrulewidth}{2pt} 
-\renewcommand{\footrulewidth}{0.4pt}  
-  
-\setlength{\footskip}{11pt}  
+\renewcommand{\footrulewidth}{0.4pt}   
+%\setlength{\footskip}{50pt}  
+\setlength{\topmargin}{1pt} 
+\setlength{\headheight}{50.37pt} 
+% \setlength{\footheight}{56.5pt} 
+% \setlength{\textheight}{500pt}
