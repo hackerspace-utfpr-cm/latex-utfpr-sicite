@@ -37,7 +37,7 @@
       
     
 % Margens
-\usepackage[left=3.00cm, right=2.00cm, top=3.00cm, bottom=2.00cm,includehead,includefoot,asymmetric,footskip=60pt]{geometry}   
+\usepackage[left=3.00cm, right=2.00cm, top=3.00cm, bottom=2.00cm,includehead,includefoot,asymmetric,footskip=60pt,includehead,includefoot]{geometry}   
 
 % Espaçamento dos parágrafos
 \parindent 1cm
