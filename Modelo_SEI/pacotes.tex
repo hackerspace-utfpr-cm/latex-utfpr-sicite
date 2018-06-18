@@ -20,13 +20,18 @@
 
 \fancypagestyle{plain}{  
 	\fancyhf{} 
-	%	\fancyheadoffset[LE, RO]{0cm} %ajustando a margem direita 
 	\fancyhead[LE,LO]{%     	
-		\includegraphics[scale=0.30]{figs/seii}  
-		\textcolor{black}{\textbf{\Large \Rnth{8} SEI}} 	 
+		\includegraphics[scale=0.30]{\eventpicture}  
+	    \textcolor{black}{% 
+	    	\textbf{% 
+	    		\Large{% 
+	    				\eventedition	  
+    		        } 
+    		} 
+    	    }
 	}   
 	%	\rhead{$\eventedition$ \eventname}
-	\fancyhead[RE,RO]{$8^\circ$ Seminário de Extensão e Inovação}
+	\fancyhead[RE,RO]{\eventname}
 	\fancyfoot[LE,LO]{%
 		\footnotesize
 		\textbf{página \thepage{} de \pageref{LastPage}}
