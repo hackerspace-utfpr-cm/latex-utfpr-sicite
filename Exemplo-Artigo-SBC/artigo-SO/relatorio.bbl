@@ -1,0 +1,31 @@
+\begin{thebibliography}{1}\setlength{\itemsep}{-1ex}\small
+
+\bibitem{tutorialspoint}
+Operating system - process scheduling.
+
+\bibitem{wiki}
+Scheduling (computing).
+
+\bibitem{abnt-url-package=url}
+
+
+\bibitem{ex1}
+I.~M. Author.
+\newblock Some related article {I} wrote.
+\newblock {\em Some Fine Journal}, 99(7):1--100, January 1999.
+
+\bibitem{ex2}
+A.~N. Expert.
+\newblock {\em A Book He Wrote}.
+\newblock His Publisher, Erewhon, NC, 1999.
+
+\bibitem{rutgers}
+P.~Krzyzanowski.
+\newblock Process scheduling.
+
+\bibitem{tanenbaum}
+A.~Tanenbaum, S.
+\newblock {\em Sistemas operacionais modernos}.
+\newblock Pearson Presentice Hall, São Paulo, 3 edition, 2009.
+
+\end{thebibliography}
