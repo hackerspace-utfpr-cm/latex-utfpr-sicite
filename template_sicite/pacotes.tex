@@ -1,0 +1,64 @@
+\usepackage[brazil]{babel}     
+%\usepackage[english]{babel}  
+\usepackage[utf8]{inputenc}   
+%\usepackage[utf8]{fontenc}
+\usepackage{amsmath,amsfonts,amssymb}
+\usepackage{graphicx,graphics} 
+\usepackage{xcolor} 
+%\usepackage{ifthen}
+\usepackage{float} 
+\usepackage{fancyhdr} 
+\usepackage[font={small}]{caption}  
+\usepackage{array} 
+\usepackage{lastpage}
+\usepackage[square]{natbib} 
+\bibliographystyle{abbrvnat}   
+\usepackage{verbatim}  
+\usepackage{nth} 
+\usepackage{layouts}  
+\usepackage{titlesec}  
+
+ 
+\titleformat{\section}{\color{teal}\normalfont\large\bfseries}{\color{teal}\thesection}{1em}{} 
+\titleformat{\subsection}{\color{teal}\normalfont\large\bfseries}{\color{teal}\thesubsection}{1em}{}
+
+\fancypagestyle{plain}{  
+	\fancyhf{} 
+	\fancyhead[LE,LO]{%   
+		\begin{minipage}{.4\linewidth}
+		\includegraphics[scale=0.40]{figs/utff} \\   	 
+		\textcolor{teal}{%
+		Apucarana - PR \\ 
+		05, 06 e 07 de novembro de 2018% 
+		} 	\end{minipage}
+	}   
+	%	\rhead{$\eventedition$ \eventname}
+	\fancyhead[RE,RO]{%  
+	    \begin{minipage}{0.3\linewidth}
+		\includegraphics[scale=0.49]{figs/sctxxii}  
+			\end{minipage}} 
+	
+	\fancyfoot[LE,LO]{%
+	\footnotesize   
+	\textcolor{teal}{
+	Seminário de iniciação científica e tecnológica, 23, 2018, Apucarana, PR.
+	}   
+}
+	%	\rfoot{\footnotesize{\eventname, \eventedition., \year, \address.}} 
+	\fancyfoot[RE,RO]{\footnotesize 
+		\textcolor{teal}{
+		\textbf{página \thepage{} de \pageref{LastPage}}} 
+	}
+}
+
+\renewcommand{\headrulewidth}{2pt} 
+\renewcommand{\footrulewidth}{1pt}   
+%\setlength{\footskip}{50pt}  
+\setlength{\topmargin}{1pt} 
+\setlength{\headheight}{50.37pt} 
+% \setlength{\footheight}{56.5pt} 
+% \setlength{\textheight}{500pt}  
+
+\renewcommand{\headrule}{\hbox to\headwidth{\color{teal}\leaders\hrule height \headrulewidth\hfill}}
+\renewcommand{\footrule}{\hbox to\headwidth{\color{teal}\leaders\hrule height \footrulewidth\hfill}}
+
