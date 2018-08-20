@@ -1,0 +1,75 @@
+\usepackage[brazil]{babel}     
+%\usepackage[english]{babel}  
+\usepackage[utf8]{inputenc}   
+%\usepackage[utf8]{fontenc}
+\usepackage{amsmath,amsfonts,amssymb}
+\usepackage{graphicx,graphics} 
+\usepackage[dvipsnames,table]{xcolor} 
+%\usepackage{ifthen}
+\usepackage{float} 
+\usepackage{fancyhdr} 
+\usepackage[font={small}]{caption}  
+\usepackage{array} 
+\usepackage{lastpage}
+%\usepackage[square]{natbib} 
+%\bibliographystyle{abbrvnat}  
+\usepackage[alf]{abntex2cite}
+\usepackage{verbatim}  
+\usepackage{nth} 
+\usepackage{layouts}  
+\usepackage{titlesec}  
+
+ 
+
+\fancypagestyle{plain}{  
+	\fancyhf{} 
+	\fancyhead[LE,LO]{%    
+		   \begin{minipage}{0.5\linewidth}
+			\includegraphics[scale=0.455]{figs/c1}  
+		\end{minipage}
+	}   
+	%	\rhead{$\eventedition$ \eventname}
+	\fancyhead[RE,RO]{%   
+	\begin{minipage}{0.3\linewidth} 
+		\begin{center}
+		\includegraphics[scale=0.363]{figs/c3}
+		\end{center} 
+			\end{minipage} 
+		}  
+	\fancyhead[CE,CO]{% 
+		\begin{minipage}{0.129\linewidth} 
+			\begin{center}
+		\includegraphics[scale=0.90]{figs/c2} 
+	\end{center} 
+\end{minipage}\begin{minipage}{0.149\linewidth} 
+\begin{center}
+	\includegraphics[scale=0.90]{figs/c2} 
+\end{center} 
+\end{minipage} 
+	}	
+	
+	\fancyfoot[LE,LO]{%
+	\footnotesize   
+	\textcolor{teal}{
+	Seminário de iniciação científica e tecnológica, 23, 2018, Apucarana, PR.
+	}   
+}
+	%	\rfoot{\footnotesize{\eventname, \eventedition., \year, \address.}} 
+	\fancyfoot[RE,RO]{\footnotesize 
+		\textcolor{teal}{
+		\textbf{página \thepage{} de \pageref{LastPage}}} 
+	}
+}
+
+\renewcommand{\headrulewidth}{2pt} 
+\renewcommand{\footrulewidth}{1pt}   
+%\setlength{\footskip}{50pt}  
+\setlength{\topmargin}{1pt} 
+\setlength{\headheight}{50.37pt} 
+% \setlength{\footheight}{56.5pt} 
+% \setlength{\textheight}{500pt}  
+ 
+ \definecolor{Aquamarine}{RGB}{53,216,195}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{Aquamarine}\leaders\hrule height \headrulewidth\hfill}}
+\renewcommand{\footrule}{\hbox to\headwidth{\color{teal}\leaders\hrule height \footrulewidth\hfill}}
+
